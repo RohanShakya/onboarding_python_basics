@@ -2,9 +2,9 @@ y=input("enter few numbers: ")
 x = y.split(",")
 
 mylist = list(x)
-print(mylist)
+print("List form: ", mylist)
 
 mytuple = tuple(mylist)
-print(mytuple)
+print("Tuple form: ", mytuple)
 
 
